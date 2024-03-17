@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 7200))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @Berlinmusicbot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7054610436))
+OWNER_ID = int(getenv("OWNER_ID", 994039943))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,14 +32,14 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/kansya-nt/AnonXMusic",
+    "https://github.com/petinggint/Musicnt",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Ortresxz")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Areamidnight")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Berlinmusic_support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
