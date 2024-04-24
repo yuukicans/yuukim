@@ -70,7 +70,7 @@ def stream_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(text="✫ ᴅᴏɴᴀsɪ ✫", url=f"https://link.dana.id/qr/ag3zovr2"),
-            InlineKeyboardButton(text="✫ ᴅᴇᴠ ✫", url=f"http://t.me/FounderMidnight"),
+            InlineKeyboardButton(text="✫ ᴅᴇᴠ ✫", url=f"http://t.me/Kakakdurov"),
         ],
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
