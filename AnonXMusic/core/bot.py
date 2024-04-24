@@ -33,22 +33,22 @@ class Anony(Client):
             )
         except (errors.ChannelInvalid, errors.PeerIdInvalid):
             LOGGER(__name__).error(
-                "nt gagal acces log group/channel. Lu tambahin dulu gw ke log group/channel lu."
+                "ʙᴏᴛ ɢᴀɢᴀʟ ᴀᴄᴄᴇs ʟᴏɢ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ. ʟᴜ ᴛᴀᴍʙᴀʜɪɴ ᴅᴜʟᴜ ʙᴏᴛ ᴋᴇ ʟᴏɢ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ʟᴜ."
             )
             exit()
         except Exception as ex:
             LOGGER(__name__).error(
-                f"nt gagal acces log group/channel.\n  Reason : {type(ex).__name__}."
+                f"ʙᴏᴛ ɢᴀɢᴀʟ ᴀᴄᴄᴇs ʟᴏɢ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ.\n  Reason : {type(ex).__name__}."
             )
             exit()
 
         a = await self.get_chat_member(config.LOGGER_ID, self.id)
         if a.status != ChatMemberStatus.ADMINISTRATOR:
             LOGGER(__name__).error(
-                "Adminin dulu ngentot di log group/channel lu."
+                "ᴀᴅᴍɪɴɪɴ ᴅᴜʟᴜ ɴɢᴇɴᴛᴏᴛ ʙᴏᴛ ɴʏᴀ ᴅɪ ʟᴏɢ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ʟᴜ."
             )
             exit()
-        LOGGER(__name__).info(f"ᴀssɪsᴛᴀɴᴛ ᴍᴜsɪᴄ ɴᴛ sᴛᴀʀᴛᴇᴅ ᴀs{self.name}")
+        LOGGER(__name__).info(f"ᴀssɪsᴛᴀɴᴛ ᴍᴜsɪᴄ ʙᴇʀʟɪɴ sᴛᴀʀᴛᴇᴅ ᴀs{self.name}")
 
     async def stop(self):
         await super().stop()
