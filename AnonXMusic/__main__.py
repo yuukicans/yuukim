@@ -43,7 +43,7 @@ async def init():
         await Anony.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
         LOGGER("BerlinXMusic").error(
-            " Mau Gw idupin ga nih botnya, Nyalain Monyet Os Nya.\n\nStopping Bot..."
+            " ᴍᴀᴜ ɢᴡ ɪᴅᴜᴘɪɴ ɢᴀ ɴɪʜ ʙᴏᴛɴʏᴀ, ɴʏᴀʟᴀɪɴ ᴍᴏɴʏᴇᴛ ᴏs ɴʏᴀ.\n\nStopping Bot..."
         )
         exit()
     except:
