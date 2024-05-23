@@ -40,7 +40,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Allnightarea")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Berlinmusic_support")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Blackangelsmusic")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
+    "START_IMG_URL", "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
+    "PING_IMG_URL", "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-STATS_IMG_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-STREAM_IMG_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/4e5c26b9415c0e26735d0.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+STATS_IMG_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+STREAM_IMG_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph//file/6fab5aec636e2d0d1c1c8.jpg"
 
 
 def time_to_seconds(time):
