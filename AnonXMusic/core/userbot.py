@@ -51,8 +51,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("blackangelsmusic")
-                await self.one.join_chat("allnightarea")
+                await self.one.join_chat("yukasamusic")
+                await self.one.join_chat("yukasateam")
             except:
                 pass
             assistants.append(1)
@@ -72,8 +72,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("blackangelsmusic")
-                await self.two.join_chat("allnightarea")
+                await self.two.join_chat("yukasamusic")
+                await self.two.join_chat("yukasateam")
             except:
                 pass
             assistants.append(2)
@@ -93,8 +93,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("blackangelsmusic")
-                await self.three.join_chat("allnightarea")
+                await self.three.join_chat("yukasamusic")
+                await self.three.join_chat("yukasateam")
             except:
                 pass
             assistants.append(3)
@@ -114,8 +114,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("blackangelsmusic")
-                await self.four.join_chat("allnightarea")
+                await self.four.join_chat("yukasamusic")
+                await self.four.join_chat("yukasateam")
             except:
                 pass
             assistants.append(4)
@@ -135,8 +135,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("blackangelsmusic")
-                await self.five.join_chat("allnightarea")
+                await self.five.join_chat("yukasamusic")
+                await self.five.join_chat("yukasateam")
             except:
                 pass
             assistants.append(5)
