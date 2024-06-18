@@ -8,7 +8,7 @@ def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_1"], url=f"https://t.me/yukasateam"
+                text=_["S_B_1"], url=f"https://t.me/musicwandasupport"
             ),
             InlineKeyboardButton(text=_["S_B_2"], url=f"https://t.me/yukasamusic"),
         ],
@@ -26,10 +26,10 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_5"], user_id=1234567890),
-            InlineKeyboardButton(text=_["S_B_2"], url=f"https://t.me/yukasamusic"),
+            InlineKeyboardButton(text=_["S_B_2"], url=f"https://t.me/musicwandasupport"),
         ],
         [
-            InlineKeyboardButton(text=_["S_B_6"], url=f"https://t.me/yukasateam"),
+            InlineKeyboardButton(text=_["S_B_6"], url=f"https://t.me/musicwandasupport"),
         ],
     ]
     return buttons
