@@ -11,35 +11,35 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="BerlinXAss1",
+            name="KingXAss1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            name="BerlinXAss2",
+            name="KingXAss2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            name="BerlinXAss3",
+            name="KingXAss3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
-            name="BerlinXAss4",
+            name="KingXAss4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            name="BerlinXAss5",
+            name="KingXAss5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -47,7 +47,7 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"sᴛᴀʀᴛɪɴɢ ᴀssɪsᴛᴀɴᴛ ʙᴇʀʟɪɴ...")
+        LOGGER(__name__).info(f"sᴛᴀʀᴛɪɴɢ ᴀssɪsᴛᴀɴᴛ ᴋɪɴɢ...")
         if config.STRING1:
             await self.one.start()
             try:
