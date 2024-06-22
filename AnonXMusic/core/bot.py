@@ -10,7 +10,7 @@ class Anony(Client):
     def __init__(self):
         LOGGER(__name__).info(f"Starting Bot...")
         super().__init__(
-            name="ʙᴇʀʟɪɴ✘ʀᴏʙᴏᴛ",
+            name="ᴋɪɴɢ✘ʀᴏʙᴏᴛ",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
@@ -29,7 +29,7 @@ class Anony(Client):
         try:
             await self.send_message(
                 chat_id=config.LOGGER_ID,
-                text=f"<u><b>» ᴡᴀɴᴅᴀ ᴍᴜsɪᴄ + ᴍᴀɴᴀɢᴇ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴍᴇᴋ! 🔥",
+                text=f"<u><b>» ᴋɪɴɢ ᴍᴜsɪᴄ + ᴍᴀɴᴀɢᴇ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴍᴇᴋ! 🔥",
             )
         except (errors.ChannelInvalid, errors.PeerIdInvalid):
             LOGGER(__name__).error(
@@ -48,7 +48,7 @@ class Anony(Client):
                 "ᴀᴅᴍɪɴɪɴ ᴅᴜʟᴜ ɴɢᴇɴᴛᴏᴛ ʙᴏᴛ ɴʏᴀ ᴅɪ ʟᴏɢ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ʟᴜ."
             )
             exit()
-        LOGGER(__name__).info(f"ᴀssɪsᴛᴀɴᴛ ᴡᴀɴᴅᴀ ᴍᴜsɪᴄ sᴛᴀʀᴛᴇᴅ ᴀs{self.name}")
+        LOGGER(__name__).info(f"ᴀssɪsᴛᴀɴᴛ ᴋɪɴɢ ᴍᴜsɪᴄ sᴛᴀʀᴛᴇᴅ ᴀs{self.name}")
 
     async def stop(self):
         await super().stop()
