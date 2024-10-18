@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 14400))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002149357186))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002110009271))
 
 # Get this value from @Berlinmusicbot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7353842230))
+OWNER_ID = int(getenv("OWNER_ID", 7390960414))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph//file/11271f123cf063a701a96.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/q3x18c.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph//file/11271f123cf063a701a96.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/q3x18c.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph//file/11271f123cf063a701a96.jpg"
-STATS_IMG_URL = "https://telegra.ph//file/11271f123cf063a701a96.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph//file/11271f123cf063a701a96.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph//file/11271f123cf063a701a96.jpg"
-STREAM_IMG_URL = "https://telegra.ph//file/11271f123cf063a701a96.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph//file/11271f123cf063a701a96.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph//file/11271f123cf063a701a96.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph//file/11271f123cf063a701a96.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph//file/11271f123cf063a701a96.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph//file/11271f123cf063a701a96.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/q3x18c.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/q3x18c.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/q3x18c.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/q3x18c.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/q3x18c.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/q3x18c.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/q3x18c.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/q3x18c.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/q3x18c.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/q3x18c.jpg"
 
 
 def time_to_seconds(time):
