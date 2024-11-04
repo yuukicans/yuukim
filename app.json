@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "24016851",
+        "value": "22787467",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "246c43bf3a234d6994e71972ae946410",
+        "value": "6caea99e8454a3dc93cc5a7ac7f7f690",
         "required": true
       },
       "BOT_TOKEN": {
@@ -34,7 +34,7 @@
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "7390960414",
+        "value": "769398602",
         "required": true
       },
       "STRING_SESSION": {
@@ -49,7 +49,7 @@
       },
       "HEROKU_APP_NAME": {
         "description": "Your heroku app name",
-        "value": "musicska",
+        "value": "mscska",
         "required": false
       },
       "LOGGER_ID": {
