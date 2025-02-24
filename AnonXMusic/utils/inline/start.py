@@ -33,7 +33,7 @@ def private_panel(_):
             InlineKeyboardButton(text=_["S_B_7"], url=f"https://t.me/+-QStFZhEeUk0MDA1"),
         ],
         [
-            InlineKeyboardButton(text=_["S_B_8"], url=f"https://t.me/UcalMeVin"),
+            InlineKeyboardButton(text=_["S_B_8"], url=f"12345678"),
             InlineKeyboardButton(text=_["S_B_9"], url=f"https://t.me/InfoMusicCalvin"),
         ],
     ]
