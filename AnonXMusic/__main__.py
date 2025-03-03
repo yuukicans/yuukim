@@ -21,7 +21,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER(__name__).error("Assistant leon client variables not defined, exiting...")
+        LOGGER(__name__).error("Assistant calvin client variables not defined, exiting...")
         exit()
     await sudo()
     try:
