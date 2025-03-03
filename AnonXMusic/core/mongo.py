@@ -8,7 +8,7 @@ LOGGER(__name__).info("ʟᴀɢɪ ɢᴡ ᴋᴏɴᴇᴋɪɴ ᴅᴜʟᴜ ᴋᴇ ᴍ
 try:
     _mongo_async_ = AsyncIOMotorClient(MONGO_DB_URI)
     mongodb = _mongo_async_.Anon
-    LOGGER(__name__).info("dah konek ke mongo.")
+    LOGGER(__name__).info("ʙᴇʀʜᴀsɪʟ ᴋᴏɴᴇᴋ ᴍᴏɴɢᴏ.")
 except:
-    LOGGER(__name__).error("ɢᴀɢᴀʟ ᴋᴏɴᴇᴋ ᴍᴇᴋ, ᴋᴇ ᴅᴀᴛᴀʙᴀsᴇ ᴍᴏɴɢᴏ ʟᴜ.")
+    LOGGER(__name__).error("ɢᴀɢᴀʟ ᴋᴏɴᴇᴋ, ᴋᴇ ᴅᴀᴛᴀʙᴀsᴇ ᴍᴏɴɢᴏ ʟᴜ.")
     exit()
