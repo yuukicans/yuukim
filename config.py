@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/petinggint/musicvin",
+    "https://github.com/yuukicans/yuukim",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/175nkq.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/1u9rd3.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/175nkq.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/1u9rd3.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/175nkq.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/175nkq.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/175nkq.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/175nkq.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/175nkq.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/175nkq.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/175nkq.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/175nkq.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/175nkq.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/175nkq.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/1u9rd3.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/1u9rd3.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/1u9rd3.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/1u9rd3.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/1u9rd3.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/1u9rd3.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/1u9rd3.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/1u9rd3.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/1u9rd3.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/1u9rd3.jpg"
 
 
 def time_to_seconds(time):
