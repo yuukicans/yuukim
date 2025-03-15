@@ -29,7 +29,7 @@ class Anony(Client):
         try:
             await self.send_message(
                 chat_id=config.LOGGER_ID,
-                text=f"<u><b>» ᴄᴀʟᴠɪɴ ᴍᴜsɪᴄ ᴀᴄᴛɪᴠᴇ! 🔥",
+                text=f"<u><b>» ʏᴜᴜᴋɪ ᴍᴜsɪᴄ ᴀᴄᴛɪᴠᴇ! 🔥",
             )
         except (errors.ChannelInvalid, errors.PeerIdInvalid):
             LOGGER(__name__).error(
@@ -48,7 +48,7 @@ class Anony(Client):
                 "ᴀᴅᴍɪɴɪɴ ᴅᴜʟᴜ ɴɢᴇɴᴛᴏᴛ ʙᴏᴛ ɴʏᴀ ᴅɪ ʟᴏɢ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ʟᴜ."
             )
             exit()
-        LOGGER(__name__).info(f"assistant Calvin music started ᴀs{self.name}")
+        LOGGER(__name__).info(f"ᴀssɪsᴛᴀɴᴛ ʏᴜᴜᴋɪ sᴛᴀʀᴛᴇᴅ  🔥{self.name}")
 
     async def stop(self):
         await super().stop()
